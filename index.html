@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Renshu Reedem Code</title>
+    <style>
+        #container {
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>Kamu Telah Terdaftar!</h2>
+        <h3>Welcome to Renshu AI Membership</h3>
+        <a class="menu" href="https://renshuaibot.github.io/RenshuAI/">Enter The Premium Experience</a>
+        <h4>Silahkan Click Tombol Di Atas!</h4>
+    </div>
+    <script>
+        let password = "Renshu2990";
+        (function passcodeprotect() {
+            let passcode = prompt("[RenshuAI]Enter Premium Codes");
+            while (passcode !== password) {
+                alert("[RenshuAI]Incorrect PassCode");
+                return passcodeprotect();
+            }
+        }());
+        alert('[RenshuAI]Welcome To Premium!');
+        document.getElementById("container")
+            .style.display = "block";
+    </script>
+    <style>
+        body {
+          background-image: url('embud.jpg');
+        }
+        </style>
+</body>
+</html>
